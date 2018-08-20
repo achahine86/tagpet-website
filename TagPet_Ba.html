@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TagPet - Muito Além da Proteção.</title>
+    <style>
+        * {box-sizing: border-box;
+            margin: 0;
+            padding: 0;}
+        #conteiner{
+            width: 1366px;}
+        #topo{
+            background-color: #ED3237;
+            border-radius: 15px;
+            float: right;
+            height: 50px;
+            margin-right: 30px;
+            margin-top: 30px;
+            width: 800px;}
+        #logo img{
+            height: 22%;
+            margin-left: 90px;
+            margin-top: 30px;
+            transform: translateY(+15px);
+            width: 22%;}
+        .menu ul{
+            list-style-type: none;}
+        .menu li{
+            display: inline;
+            margin-right: 9px;}
+        .menu a{
+            color: white;
+            font-size: 16px;
+            margin: 14px;
+            padding: 1px 46px 33px 46px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.2s;}
+        .menu a:hover{
+            background-color: rgb(255, 208, 0);}
+        #espacamento1{/*para baixar a ibagem do catioro marrom*/
+            display: block;
+            margin-top: 80px;}
+        h1{
+            color: #ED3237;
+            font-size: 36px;
+            height: 92px;
+            margin-left: 90px;
+            text-align: center;
+            width: 540px;}
+        #banner img{
+            float: right;
+            height: 52%;
+            margin-right: 60px;
+            transform: translateY(-221px);
+            width: 52%;}
+        #slogan p{
+            margin-left: 90px;
+            text-align: center;}
+        .criar-conta a{/*por que consegui alinhar este e o nav nao*/
+            background-color: #ED3237;
+            border-radius: 16px;
+            color: white;
+            font-size: 16px;
+            height: 24px;
+            margin-left: 475px;
+            padding: 8px 8px 8px 8px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.2s;
+            width: 106px;}
+        .criar-conta a:hover{
+            background-color: rgb(255, 208, 0);}
+        .divisao{
+            background-color: #ED3237;
+            height: 16px;
+            width: 1366px;
+            margin-top: 177px;}/*verificar por que quando mudo esta linha de lugar, muda o resultado*/
+        .desenho img{
+            display: block;
+            height: 4%;
+            margin-left: 568px;
+            transform: translateY(-18px);
+            width: 4%;}
+        #catioro-marrom img{
+            margin-top: 30px;
+            height: 26%;
+            width: 26%;}
+        .tagpet{
+            float: right;
+            height: 155px;
+            margin-bottom: 40px;
+            margin-right: 212px;
+            margin-top: 60px;
+            text-align: center;
+            transform: translateY(-500px);
+            width: 265px;}
+        #como-funciona{
+            font-size: 16px;
+            margin-left: 60px;
+            margin-top: 116px;}
+        #como-funciona ul{
+            list-style-type: none;}
+        #como-funciona img{
+            float: right;
+            margin-right: 16px;
+            margin-top: 40px;
+            transform: translateY(-500px);}
+        .compre-agora{
+            margin-top: 80px;}
+        .compre-agora h2{
+            margin-left: 498px}
+        #subtitulo{
+            display: block;
+            text-align: center;
+            width: 1366px;}
+        #espacamento2{/*para separar o subtitulo dos produtos*/
+            display: block;
+            margin-bottom: 60px;}
+        .pingente-azul{
+            border-right: 1px solid;
+            border-color: black;
+            height: 316px;
+            margin-left: 40px;
+            text-align: center;
+            width: 324px;}
+        .pingente-azul img{
+            width: 43%;}
+        .pingente-rosa{
+            border-right: 1px solid;
+            border-color: black;
+            height: 316px;
+            margin-left: 363px;
+            text-align: center;
+            transform: translateY(-316px);
+            width: 324px;}
+        .pingente-rosa img{
+            width: 43%;}
+        .pingente-azul-resinado{
+            border-right: 1px solid;
+            border-color: black;
+            height: 316px;
+            margin-left: 686px;
+            text-align: center;
+            transform:translateY(-632px);
+            width: 324px;}
+        .pingente-azul-resinado img{
+            height: 43%;
+            width: 48%;}
+        .pingente-rosa-resinado{
+            height: 316px;
+            margin-left: 1009px;
+            text-align: center;
+            transform:translateY(-948px);
+            width: 324px;}
+        .pingente-rosa-resinado img{
+            height: 43%;
+            width: 48%;}
+        .compre-agora a{
+            background-color: #ED3237;
+            border-radius: 16px;
+            color: white;
+            font-size: 16px;
+            height: 36px;
+            padding: 8px 8px 8px 8px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.2s;
+            width: 285px;}
+        .compre-agora a:hover{
+            background-color: rgb(255, 208, 0);}
+        h2 {font-size: 28px}
+        h3 {font-size: 20px}
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <header id="topo">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Nosso Produto</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+            <div id="logo">
+                <img src="imagens/logotagpet1.png" alt="Imagem do logotipo da TagPet">
+            </div><!--fim logo-->
+            <span id="espacamento1"></span>
+        <main>
+        <section id="primeira-parte">
+            <h1>QUEM AMA CUIDA
+                <br>QUEM AMA PROTEGE</h1><br> 
+            <div id="banner">
+                <img src="imagens/adorable-animal-breed-159541.jpg" alt="Catioro branco">
+            </div><!--fim banner-->
+            <div id="slogan">
+                <p>FACILITE A IDENTIFICAÇÃO E CONTROLE
+                    <br>O HISTÓRICO DE VIDA DO SEU MELHOR AMIGO</p>
+            </div><!--fim slogan--> 
+            <div class="criar-conta"><br>
+                <a href="#">Criar Conta</a>
+            </div><!--fim criar conta-->
+            <div class="divisao">
+                <div class="desenho">
+                    <img src="imagens/Desenhineo1.png" alt="Desenho de um catioro cinza">
+                </div><!--fim desenho-->
+            </div><!--fim divisao-->
+        </section>       
+        <section id="descricao">
+            <div id="catioro-marrom">
+                <img src="imagens/Imagem1.png" alt="Catioro marrom">
+            </div> <!--fim catioro marrom-->           
+            <div class="tagpet">
+                <h3>CADASTRE SEU PET</h3>
+                <p>Após a aquisição do TagPet
+                    <br>do seu amigo, crie sua conta
+                    <br>ou faça seu login, cadastre
+                    <br>seu pet e associe seu código
+                    <br>presente no pingente ao perfil
+                    <br>do seu pet.</p>
+            </div><!--fim cadastre seu pet-->     
+            <div class="tagpet">
+                <h3>ADQUIRA O TAGPET</h3>
+                <p>O primeiro passo para 
+                    <br>facilitar a identificação 
+                    <br>do seu melhor amigo  é 
+                    <br>adquirir o TagPet.</p>
+            </div><!--fim adquira o tagpet-->           
+            <div class="tagpet">
+                <h3>CONTROLE DE VIDA DO PET</h3>
+                <p>Tenha todo o historico da vida do 
+                    <br>seu pet armazenado na nuvem, 
+                    <br>quando e onde precisar tenha acesso 
+                    <br>a vacinas, exames e muito mais, tudo
+                    <br>isto na palma da sua mão.</p>
+            </div><!--fim controle de vida do pet-->        
+            <div class="tagpet">
+                <h3>PROTEJA SEU PET</h3>
+                <p>Coloque o TagPet em seu melhor 
+                    <br>amigo e fique tranquilo, seu pet
+                    <br>agora esta protegido e você terá
+                    <br>descontos com nossos parceiros.</p>
+            </div><!--fim  proteja seu pet-->
+        </section>     
+        <div class="divisao">
+            <div class="desenho">
+                <img src="imagens/Desenhineo2.png" alt="Desenho de um ursineo">
+            </div><!--fim desenho-->
+        </div><!--fim divisao-->        
+        <section id="como-funciona">
+            <h2>Como Funciona</h2>
+                <p><br>O pingente TagPet possui um código de barras 2d(QrCode), 
+                    <br>pode ser feita a leitura deste código por um celular 
+                    <br>carregando imediatamente os  dados do pet e do seu 
+                    <br>proprietário. Caso haja dificuldade de leitura pela pessoa 
+                    <br>que achou o pet, o pingente conta também com número 
+                    <br>da nossa central de atendimento e a URL com os dados do pet.</p>
+                <ul>
+                    <li>- Facilidade de uso.</li>
+                    <li>- Rápida atualização dos dados do pet e do proprietário.</li>
+                    <li>- Geolocalização.</li>
+                    <li>- Integração com Redes Sociais.</li>
+                    <li>- Diversos serviços e ofertas especiais.</li>
+                </ul>
+            <div class="demonstracao">
+                <img src="imagens/html5andcss3.png" alt="Imagem de um monitor de vídeo, de um tablet e um celular com imagens dos pingentes TagPet sobrepostas">
+            </div><!--fim demonstracao-->
+        </section>
+        <div class="divisao">
+            <div class="desenho">
+                <img src="imagens/Desenhineo3.png" alt="Desenho de um catioro chihuahua">
+            </div><!--fim desenho-->
+        </div><!--fim divisao-->              
+        <section class="compre-agora">
+            <h2>Compre Agora</h2>
+            <div id="subtitulo">
+                <p>TagPet tem em diversos modelos, um combina com o seu Pet</p>
+                    <span id="espacamento2"></span>
+            </div><!--fim subtitulo-->
+            <div class="pingente-azul">
+                <a href="#">Pingente Azul</a><br>
+                    <br><img src="imagens/Imagem7.png" alt="Pingente azul"><br>
+                <p>Seu pet é macho de porte 
+                    <br>pequeno ou médio adquira o 
+                    <br>pingente de aluminio na cor 
+                    <br>azul, a prova d'agua, coloque 
+                    <br>o pingente na coleira do seu 
+                    <br>amigo e fique tranquilo(a).</p>
+            </div><!--fim pingente azul-->                    
+            <div class="pingente-rosa">
+                <a href="#">Pingente Rosa</a><br>
+                    <br><img src="imagens/Imagem8.png" alt="Pingente rosa"><br>
+                <p>Seu pet é uma fêmea de porte 
+                    <br>pequeno e médio adquira o 
+                    <br>pingente de aluminio na cor 
+                    <br>rosa, a prova d'agua, coloque 
+                    <br>o pingente na coleira do seu 
+                    <br>amigo e fique tranquilo(a).</p>
+            </div><!--fim pingente rosa-->                   
+            <div class="pingente-azul-resinado">
+                <a href="#">Pingente Azul Resinado</a><br>
+                    <br><img src="imagens/AzulResinado.png" alt="Pingente azul resinado"><br>
+                <p>Seu pet é macho de grande 
+                    <br>adquira o pingente resinado 
+                    <br>na cor azul, resistente, a 
+                    <br>prova d'agua, coloque o 
+                    <br>pingente na coleira do seu 
+                    <br>amigo e fique tranquilo(a).</p>
+            </div><!--fim pingente azul resinado-->                   
+            <div class="pingente-rosa-resinado">
+                <a href="#">Pingente Rosa Resinado</a><br>
+                    <br><img src="imagens/RosaResinado.png" alt="Pingente rosa resinado"><br>
+                <p>Seu pet é fêmea de grande 
+                    <br>adquira o pingente resinado 
+                    <br>na cor azul, resistente, a 
+                    <br>prova d'agua, coloque o 
+                    <br>pingente na coleira do seu 
+                    <br>amigo e fique tranquilo(a).</p>
+            </div><!--fim pingente rosa resinado-->
+        </section>
+        </main>
+    </div><!--fim conteiner-->
+</body>
+</html>
